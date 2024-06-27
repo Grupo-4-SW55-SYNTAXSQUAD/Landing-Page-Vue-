@@ -21,13 +21,13 @@
           </div>
           <div class="galery__image grid align-items-center" >
             <div>
-              <pv-image class="galety-item col flex align-items-center justify-content-center bg-primary font-bold m-2 border-round" src="../src/assets/images/cajamarca-peru.jpg" ></pv-image>
-              <pv-image class="galety-item col flex align-items-center justify-content-center bg-primary font-bold m-2 border-round" src="../src/assets/images/cusco-peru.jpg"></pv-image>
-              <pv-image class="galety-item col flex align-items-center justify-content-center bg-primary font-bold m-2 border-round" src="../src/assets/images/lineas-de-nazca.jpg"></pv-image>
+              <pv-image class="galety-item col flex align-items-center justify-content-center bg-primary font-bold m-2 border-round" src="assets/images/cajamarca-peru.jpg" ></pv-image>
+              <pv-image class="galety-item col flex align-items-center justify-content-center bg-primary font-bold m-2 border-round" src="assets/images/cusco-peru.jpg"></pv-image>
+              <pv-image class="galety-item col flex align-items-center justify-content-center bg-primary font-bold m-2 border-round" src="assets/images/lineas-de-nazca.jpg"></pv-image>
             </div>
             <div>
-              <pv-image class="galety-item col flex align-items-center justify-content-center bg-primary font-bold m-2 border-round" src="../src/assets/images/santuario-historico-de-machu-picchu.jpg"></pv-image>
-              <pv-image class="galety-item col flex align-items-center justify-content-center bg-primary font-bold m-2 border-round" src="../src/assets/images/trujillo-peru.jpg"></pv-image>
+              <pv-image class="galety-item col flex align-items-center justify-content-center bg-primary font-bold m-2 border-round" src="assets/images/santuario-historico-de-machu-picchu.jpg"></pv-image>
+              <pv-image class="galety-item col flex align-items-center justify-content-center bg-primary font-bold m-2 border-round" src="assets/images/trujillo-peru.jpg"></pv-image>
             </div>
           </div>
       </div>

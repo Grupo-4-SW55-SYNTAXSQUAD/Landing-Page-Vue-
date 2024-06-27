@@ -1,28 +1,19 @@
-<script>
-import 'boxicons';
-
-export default {
-  name: "footer-component"
-}
-</script>
-
 <template>
-  <body>
   <footer>
     <div class="footer">
       <div class="container">
         <div class="footer-container">
-          <a href="#" class="logo-footer">
+          <router-link to="/" class="logo-footer">
             <i class="bx bxs-bug logo__icon"></i>
             <span class="nombre_startup">PeruVentura</span>
-          </a>
+          </router-link>
 
           <div class="nav-footer">
-            <a href="#" class="footer-link">Inicio</a>
-            <a href="#" class="footer-link">About Us</a>
-            <a href="#" class="footer-link">Services</a>
-            <a href="#" class="footer-link">About the Team</a>
-            <a href="#" class="footer-link">Contacto</a>
+            <router-link to="/" class="footer-link">Inicio</router-link>
+            <router-link to="/about" class="footer-link">About Us</router-link>
+            <router-link to="/service" class="footer-link">Services</router-link>
+            <router-link to="/about-team" class="footer-link">About the Team</router-link>
+            <router-link to="/contact" class="footer-link">Contacto</router-link>
           </div>
 
           <div class="footer-contacto">
@@ -45,9 +36,14 @@ export default {
       </div>
     </div>
   </footer>
-  </body>
 </template>
 
-<style scoped>
+<script>
+export default {
+  name: "footer-component"
+};
+</script>
 
+<style scoped>
+/* Estilos específicos para el footer */
 </style>

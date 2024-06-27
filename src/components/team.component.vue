@@ -8,28 +8,28 @@
         dev:[
           {
             id:1,
-            img:"../src/assets/images/dev-Lynn.png",
+            img:"assets/images/dev-Lynn.png",
             name: "Lynn Meza Camayo",
 
           },
           {
             id:2,
-            img:"../src/assets/images/Paolo-dev.jpg",
+            img:"assets/images/Paolo-dev.jpg",
             name: "Paolo Parraga Gamarra"
           },
           {
             id:3,
-            img:"../src/assets/images/Fabricio-dev.jpg",
+            img:"assets/images/Fabricio-dev.jpg",
             name: "Fabricio"
           },
           {
             id:4,
-            img:"../src/assets/images/Felix-dev.jpg",
+            img:"assets/images/Felix-dev.jpg",
             name: "Felix Becerra"
           },
           {
             id:5,
-            img:"../src/assets/images/David-dev.jpg",
+            img:"assets/images/David-dev.jpg",
             name: "David Rodriguez Santos"
           }
         ]

@@ -19,7 +19,7 @@ export default {
             Our team is made up of travel lovers and tech experts who work tirelessly to provide you with the tools you need to explore the best our beautiful country has to offer.</p>
         </div>
         <div>
-          <pv-image src="src/assets/images/cajamarca-peru.jpg"></pv-image>
+          <pv-image src="assets/images/cajamarca-peru.jpg"></pv-image>
         </div>
       </div>
     </div>

@@ -1,34 +1,65 @@
 <script>
-  export default {
-    name:"footer-component",
+export default {
+  name: "footer-component",
+  data() {
+    return {
+      contactInfo: {
+        email: "info@example.com",
+        phone: "(123) 456-7890"
+      },
+      socialLinks: [
+        { name: "Facebook", url: "#" },
+        { name: "Twitter", url: "#" },
+        { name: "Instagram", url: "#" }
+      ],
+      navigationLinks: [
+        {
+          label: 'Home',
+          to: '#home'
+        },
+        {
+          label: 'About us',
+          to: '#about'
+        },
+        {
+          label: 'Services',
+          to: '#service'
+        },
+        {
+          label: 'About the team',
+          to: '#about-team'
+        },
+        {
+          label: 'Contact',
+          to: '#contact'
+        }
+      ]
+    };
   }
+};
 </script>
 
 <template>
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-logo">
-        <h1 class="title ">PERUVENTURA</h1>
+        <h1 class="title">PERUVENTURA</h1>
       </div>
       <div class="footer-nav">
         <h3>Navigation</h3>
         <ul>
-          <li><router-link :to="{ path: '/', hash: '#home' }">Home</router-link></li>
-          <li><router-link :to="{ path: '/', hash: '#about' }">About</router-link></li>
-          <li><router-link :to="{ path: '/', hash: '#service' }">Service</router-link></li>
-          <li><router-link :to="{ path: '/', hash: '#about-team' }">About Team</router-link></li>
-          <li><router-link :to="{ path: '/', hash: '#contact' }">Contact</router-link></li>
+          <li v-for="(link, index) in navigationLinks" :key="index">
+            <a :href="link.to">{{ link.label }}</a>
+          </li>
         </ul>
       </div>
       <div class="footer-contact">
         <h3>Contact Us</h3>
-        <p>Email: info@example.com</p>
-        <p>Phone: (123) 456-7890</p>
+        <p>Email: {{ contactInfo.email }}</p>
+        <p>Phone: {{ contactInfo.phone }}</p>
         <h3>Follow Us</h3>
         <div class="social-links">
-          <a href="#" class="social-link">Facebook</a>
-          <a href="#" class="social-link">Twitter</a>
-          <a href="#" class="social-link">Instagram</a>
+          <a v-for="(socialLink, index) in socialLinks" :key="index" :href="socialLink.url" class="social-link">{{ socialLink.name }}</a>
         </div>
       </div>
     </div>
@@ -57,8 +88,6 @@
   min-width: 200px;
   margin: 10px;
 }
-
-
 
 .footer-nav h3,
 .footer-contact h3 {

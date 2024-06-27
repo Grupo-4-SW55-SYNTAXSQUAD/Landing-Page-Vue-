@@ -1,4 +1,3 @@
-
 import { createRouter, createWebHistory } from "vue-router";
 import HomeComponent from "../Peruventura/view/home.component.vue";
 import About from "../Peruventura/view/about.component.vue";

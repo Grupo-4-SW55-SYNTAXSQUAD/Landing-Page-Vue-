@@ -31,7 +31,7 @@
           <h1><span class="title-span">CONTACT</span></h1>
         </div>
         <div class="form-container flex flex-column align-items-center p-3 max-w-30rem  shadow-1">
-          <pv-image class="form-img" src="../src/assets/images/contact.png"></pv-image>
+          <pv-image class="form-img" src="assets/images/contact.png"></pv-image>
           <form class="form-content w-full flex flex-column align-items-center ">
             <div class="form-group ">
               <label for="name">Name</label>
@@ -54,7 +54,7 @@
 
 <style scoped>
   .form-container{
-    margin: 0 auto;
+    margin: 15px auto;
     background-color: white;
     border: 2px solid red;
     border-radius: 15px;

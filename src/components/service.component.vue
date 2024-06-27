@@ -7,17 +7,17 @@
           {
             title:"Search and filter activities",
             text:"Users can search for activities by location, type of experience (arts, cooking, crafts, etc.), date availability, and other relevant criteria.",
-            img:"../src/assets/images/service-1.jpg"
+            img:"assets/images/service-1.jpg"
           },
           {
             title:"Comunicación directa con los anfitriones.",
             text:"Los usuarios pueden comunicarse directamente con los anfitriones de las actividades para hacer preguntas, obtener más información y concertar detalles adicionales.",
-            img:"../src/assets/images/service-2.jpg"
+            img:"assets/images/service-2.jpg"
           },
           {
             title:"Detailed information about activities",
             text:"Each activity has a details page that provides complete information about the experience, including times, location, detailed description, participation requirements, and more.",
-            img:"../src/assets/images/service-3.jpeg"
+            img:"assets/images/service-3.jpeg"
           }
         ]
       }
