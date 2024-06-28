@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     redirectToExternalPage() {
-      window.location.href = 'https://www.youtube.com'; // replace with your external URL
+      window.location.href = 'https://peruventuraappweb.netlify.app/login'; // replace with your external URL
     }
   }
 }
